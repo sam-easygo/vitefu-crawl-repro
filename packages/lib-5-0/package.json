@@ -1,0 +1,19 @@
+{
+  "name": "lib-5-0",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "svelte": "./index.js",
+  "exports": {
+    ".": {
+      "svelte": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "dependencies": {
+    "lib-6-0": "workspace:*",
+    "lib-6-1": "workspace:*",
+    "lib-6-2": "workspace:*",
+    "lib-6-3": "workspace:*"
+  }
+}

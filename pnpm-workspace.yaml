@@ -1,0 +1,8 @@
+packages:
+  - app
+  - packages/*
+
+# To try the fix from https://github.com/bluwy/vitefu/pull/31, remove the `#` from the
+# two lines below and run `pnpm install` again.
+# patchedDependencies:
+#   vitefu@1.1.3: patches/vitefu@1.1.3.patch

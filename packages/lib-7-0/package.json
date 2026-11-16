@@ -1,0 +1,13 @@
+{
+  "name": "lib-7-0",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "svelte": "./index.js",
+  "exports": {
+    ".": {
+      "svelte": "./index.js",
+      "default": "./index.js"
+    }
+  }
+}

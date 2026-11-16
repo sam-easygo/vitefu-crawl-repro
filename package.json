@@ -1,0 +1,8 @@
+{
+  "name": "vitefu-crawl-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm --filter app build"
+  }
+}

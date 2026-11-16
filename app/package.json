@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "lib-0-0": "workspace:*",
+    "lib-0-1": "workspace:*",
+    "lib-0-2": "workspace:*",
+    "lib-0-3": "workspace:*"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "svelte": "5.57.3",
+    "vite": "8.3.8"
+  }
+}

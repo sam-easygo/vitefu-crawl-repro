@@ -1,0 +1,19 @@
+{
+  "name": "lib-0-2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "svelte": "./index.js",
+  "exports": {
+    ".": {
+      "svelte": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "dependencies": {
+    "lib-1-0": "workspace:*",
+    "lib-1-1": "workspace:*",
+    "lib-1-2": "workspace:*",
+    "lib-1-3": "workspace:*"
+  }
+}
